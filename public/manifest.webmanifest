@@ -1,0 +1,16 @@
+{
+  "name": "Alex Morgan — Freelance Website Designer",
+  "short_name": "Alex Morgan",
+  "description": "Freelance website designer and frontend developer portfolio.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#0F172A",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
