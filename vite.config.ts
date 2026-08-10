@@ -5,7 +5,7 @@ import react from "@vitejs/plugin-react";
 // GitHub Pages serves project sites from https://<user>.github.io/<repo>/
 // so the base path must match the repository name exactly (with slashes).
 // Update REPO_NAME below to match your GitHub repository name before deploying.
-const REPO_NAME = "portfolio";
+const REPO_NAME = "commit-and-pray";
 
 export default defineConfig(({ command }) => ({
   plugins: [react()],
