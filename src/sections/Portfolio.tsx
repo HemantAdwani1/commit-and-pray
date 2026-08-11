@@ -15,7 +15,7 @@ function ProjectCard({ project }: { project: Project }) {
           decoding="async"
           width={1200}
           height={750}
-          className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+          className="h-full w-full object-cover object-left transition-transform duration-500 group-hover:scale-105"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-primary/70 via-primary/0 to-primary/0 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
         <div className="absolute inset-x-0 bottom-0 flex translate-y-2 items-center gap-3 p-4 opacity-0 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100">

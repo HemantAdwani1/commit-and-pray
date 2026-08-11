@@ -39,8 +39,8 @@ export default function App() {
           <About />
           <Services />
           <TechStack />
-          {/* <Portfolio />
-          <Testimonials /> */}
+          <Portfolio />
+          {/* <Testimonials /> */}
           <Process />
           <FAQ />
           <Contact />

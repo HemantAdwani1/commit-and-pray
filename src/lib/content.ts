@@ -23,6 +23,7 @@ import type {
   FaqItem,
 } from "@/types";
 
+
 export const SITE = {
   name: "Hemant Adwani",
   role: "Freelance Website Designer & Frontend Developer",
@@ -35,7 +36,7 @@ export const SITE = {
 export const NAV_LINKS: NavLink[] = [
   { label: "About", href: "#about" },
   { label: "Services", href: "#services" },
-  // { label: "Work", href: "#portfolio" },
+  { label: "Work", href: "#portfolio" },
   { label: "Process", href: "#process" },
   { label: "FAQ", href: "#faq" },
   { label: "Contact", href: "#contact" },
@@ -130,73 +131,73 @@ export const TECH_STACK = [
 
 export const PROJECTS: Project[] = [
   {
-    id: "northwind-finance",
-    title: "Northwind Finance",
+    id: "courtyard-cafe",
+    title: "Courtyard Cafe",
     description:
-      "A marketing site and investor portal redesign for a fintech startup, focused on trust and clarity of complex pricing.",
+      "A modern, responsive cafe website designed to showcase the menu and brand. Features include interactive menus, gallery, location, opening hours and Whatsapp Integration",
     image:
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200&auto=format&fit=crop",
+      "/courtyard-cafe.png",
     tags: ["React", "TypeScript", "Tailwind CSS"],
-    liveUrl: "https://example.com/northwind-finance",
-    githubUrl: "https://github.com/alexmorgan/northwind-finance",
+    liveUrl: "courtyard-cafe.html",
+    githubUrl: "https://hemantadwani1.github.io/commit-and-pray",
     featured: true,
   },
-  {
-    id: "verdant-goods",
-    title: "Verdant Goods",
-    description:
-      "E-commerce storefront for a sustainable home goods brand, built with a sub-2s load time and streamlined checkout.",
-    image:
-      "https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=1200&auto=format&fit=crop",
-    tags: ["React", "Supabase", "Tailwind CSS"],
-    liveUrl: "https://example.com/verdant-goods",
-    githubUrl: "https://github.com/alexmorgan/verdant-goods",
-    featured: true,
-  },
-  {
-    id: "atlas-analytics",
-    title: "Atlas Analytics",
-    description:
-      "A dashboard UI for a B2B analytics product — dense data tables, saved views, and accessible chart components.",
-    image:
-      "https://images.unsplash.com/photo-1551288049-a5c8b7ba9b0c?q=80&w=1200&auto=format&fit=crop",
-    tags: ["React", "TypeScript", "Recharts"],
-    liveUrl: "https://example.com/atlas-analytics",
-    githubUrl: "https://github.com/alexmorgan/atlas-analytics",
-  },
-  {
-    id: "field-notes-studio",
-    title: "Field Notes Studio",
-    description:
-      "Portfolio site for a photography studio, built around large-format imagery with careful lazy-loading.",
-    image:
-      "https://images.unsplash.com/photo-1493612276216-ee3925520721?q=80&w=1200&auto=format&fit=crop",
-    tags: ["React", "Framer Motion"],
-    liveUrl: "https://example.com/field-notes-studio",
-    githubUrl: "https://github.com/alexmorgan/field-notes-studio",
-  },
-  {
-    id: "harbor-clinic",
-    title: "Harbor Clinic",
-    description:
-      "Website redesign for a healthcare practice, prioritizing accessibility, appointment booking, and local SEO.",
-    image:
-      "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=1200&auto=format&fit=crop",
-    tags: ["React", "SEO", "Accessibility"],
-    liveUrl: "https://example.com/harbor-clinic",
-    githubUrl: "https://github.com/alexmorgan/harbor-clinic",
-  },
-  {
-    id: "loop-collective",
-    title: "Loop Collective",
-    description:
-      "Landing page for a product launch campaign that drove a measurable lift in waitlist signups.",
-    image:
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200&auto=format&fit=crop",
-    tags: ["React", "Landing Page", "A/B Testing"],
-    liveUrl: "https://example.com/loop-collective",
-    githubUrl: "https://github.com/alexmorgan/loop-collective",
-  },
+  // {
+  //   id: "verdant-goods",
+  //   title: "Verdant Goods",
+  //   description:
+  //     "E-commerce storefront for a sustainable home goods brand, built with a sub-2s load time and streamlined checkout.",
+  //   image:
+  //     "https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=1200&auto=format&fit=crop",
+  //   tags: ["React", "Supabase", "Tailwind CSS"],
+  //   liveUrl: "https://example.com/verdant-goods",
+  //   githubUrl: "https://github.com/alexmorgan/verdant-goods",
+  //   featured: true,
+  // },
+  // {
+  //   id: "atlas-analytics",
+  //   title: "Atlas Analytics",
+  //   description:
+  //     "A dashboard UI for a B2B analytics product — dense data tables, saved views, and accessible chart components.",
+  //   image:
+  //     "https://images.unsplash.com/photo-1551288049-a5c8b7ba9b0c?q=80&w=1200&auto=format&fit=crop",
+  //   tags: ["React", "TypeScript", "Recharts"],
+  //   liveUrl: "https://example.com/atlas-analytics",
+  //   githubUrl: "https://github.com/alexmorgan/atlas-analytics",
+  // },
+  // {
+  //   id: "field-notes-studio",
+  //   title: "Field Notes Studio",
+  //   description:
+  //     "Portfolio site for a photography studio, built around large-format imagery with careful lazy-loading.",
+  //   image:
+  //     "https://images.unsplash.com/photo-1493612276216-ee3925520721?q=80&w=1200&auto=format&fit=crop",
+  //   tags: ["React", "Framer Motion"],
+  //   liveUrl: "https://example.com/field-notes-studio",
+  //   githubUrl: "https://github.com/alexmorgan/field-notes-studio",
+  // },
+  // {
+  //   id: "harbor-clinic",
+  //   title: "Harbor Clinic",
+  //   description:
+  //     "Website redesign for a healthcare practice, prioritizing accessibility, appointment booking, and local SEO.",
+  //   image:
+  //     "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=1200&auto=format&fit=crop",
+  //   tags: ["React", "SEO", "Accessibility"],
+  //   liveUrl: "https://example.com/harbor-clinic",
+  //   githubUrl: "https://github.com/alexmorgan/harbor-clinic",
+  // },
+  // {
+  //   id: "loop-collective",
+  //   title: "Loop Collective",
+  //   description:
+  //     "Landing page for a product launch campaign that drove a measurable lift in waitlist signups.",
+  //   image:
+  //     "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200&auto=format&fit=crop",
+  //   tags: ["React", "Landing Page", "A/B Testing"],
+  //   liveUrl: "https://example.com/loop-collective",
+  //   githubUrl: "https://github.com/alexmorgan/loop-collective",
+  // },
 ];
 
 export const TESTIMONIALS: Testimonial[] = [
