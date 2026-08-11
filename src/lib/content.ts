@@ -135,8 +135,7 @@ export const PROJECTS: Project[] = [
     title: "Courtyard Cafe",
     description:
       "A modern, responsive cafe website designed to showcase the menu and brand. Features include interactive menus, gallery, location, opening hours and Whatsapp Integration",
-    image:
-      "/courtyard-cafe.png",
+    image: "/commit-and-pray/courtyard-cafe.png"
     tags: ["React", "TypeScript", "Tailwind CSS"],
     liveUrl:  "/commit-and-pray/courtyard-cafe.html",
     githubUrl: "https://hemantadwani1.github.io/commit-and-pray",
