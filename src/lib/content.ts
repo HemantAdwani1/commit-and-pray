@@ -138,7 +138,7 @@ export const PROJECTS: Project[] = [
     image:
       "/courtyard-cafe.png",
     tags: ["React", "TypeScript", "Tailwind CSS"],
-    liveUrl: "courtyard-cafe.html",
+    liveUrl:  "/commit-and-pray/courtyard-cafe.html",
     githubUrl: "https://hemantadwani1.github.io/commit-and-pray",
     featured: true,
   },
