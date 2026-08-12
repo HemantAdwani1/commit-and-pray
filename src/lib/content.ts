@@ -145,11 +145,11 @@ export const PROJECTS: Project[] = [
     id: "znith-academy",
     title: "Zenith Academy",
     description:
-      "E-commerce storefront for a sustainable home goods brand, built with a sub-2s load time and streamlined checkout.",
+      "A modern coaching platform designed to create a focused, trustworthy, and motivating digital experience.",
     image:
-      "https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=1200&auto=format&fit=crop",
+      "/commit-and-pray/Websites/Coaching/Zenith.png",
     tags: ["React", "Supabase", "Tailwind CSS"],
-    liveUrl: "Websites/Coaching/Akash.html",
+    liveUrl: "Websites/Coaching/zenith.html",
     githubUrl: "https://hemantadwani1.github.io/commit-and-pray",
     featured: true,
   },
