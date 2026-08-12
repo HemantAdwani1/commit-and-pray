@@ -141,18 +141,18 @@ export const PROJECTS: Project[] = [
     githubUrl: "https://hemantadwani1.github.io/commit-and-pray",
     featured: true,
   },
-  // {
-  //   id: "verdant-goods",
-  //   title: "Verdant Goods",
-  //   description:
-  //     "E-commerce storefront for a sustainable home goods brand, built with a sub-2s load time and streamlined checkout.",
-  //   image:
-  //     "https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=1200&auto=format&fit=crop",
-  //   tags: ["React", "Supabase", "Tailwind CSS"],
-  //   liveUrl: "https://example.com/verdant-goods",
-  //   githubUrl: "https://github.com/alexmorgan/verdant-goods",
-  //   featured: true,
-  // },
+  {
+    id: "znith-academy",
+    title: "Zenith Academy",
+    description:
+      "E-commerce storefront for a sustainable home goods brand, built with a sub-2s load time and streamlined checkout.",
+    image:
+      "https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=1200&auto=format&fit=crop",
+    tags: ["React", "Supabase", "Tailwind CSS"],
+    liveUrl: "Websites/Coaching/Akash.html",
+    githubUrl: "https://hemantadwani1.github.io/commit-and-pray",
+    featured: true,
+  },
   // {
   //   id: "atlas-analytics",
   //   title: "Atlas Analytics",
